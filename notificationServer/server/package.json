@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "node-notifier": "^10.0.0",
+    "socket.io": "^4.2.0"
+  }
+}

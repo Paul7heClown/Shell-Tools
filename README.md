@@ -6,6 +6,6 @@
 - The `<home>/.config/shell-tools` directory holds miscellaneous configuration files for my tools.
 - Inside `<home>/.config/shell-tools/mysql`, you'll find the necessary MySQL configurations.
 - The `/mysql` directory contains my MySQL dumper and importer scripts, where each table has its own gzip-compressed SQL file.
-- The `/notificationServer` directory conatins my notificationServer application. This application monitors log files in real-time, detecting and reporting errors by generating system notifications.
+- The `/notificationServer` directory contains my notificationServer application. This application monitors log files in real-time, detecting and reporting errors by generating system notifications.
 
 

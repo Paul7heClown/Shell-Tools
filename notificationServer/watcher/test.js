@@ -1,7 +1,7 @@
 const io = require('socket.io-client');
 const notifier = require('node-notifier');
 
-const socket = io.connect('http://192.168.178.52:6969', { reconnect: false });
+const socket = io.connect('http://server.ip:6969', { reconnect: false });
 
 const notifications = [
   { type: 'php', title: 'DEPRECATED', message: 'Depricated Warning on file deprecated.class.php:231 \nmore details\n......' },
