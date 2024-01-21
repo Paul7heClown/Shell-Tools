@@ -1,0 +1,30 @@
+######
+#
+# mysql dumper config
+# Place this file into folder ~/.config/shell-tools/mysql/
+# If you require sudo to dump MySQL tables, place this file in root/.config/shell-tools/mysql/ folder
+#
+
+
+### Needed binaries ###
+TAR="$(which tar)"
+GZIP="$(which gzip)"
+MYSQL="$(which mysql)"
+MYSQLDUMP="$(which mysqldump)"
+
+### System Setup ###
+BACKUP=.
+
+### MySQL Setup ###
+MUSER="mysql_user"
+MPASS="mysql_pass"
+MHOST="mysql_host"
+
+### Database to Dump ###
+DBS="database"
+
+### Skip tables when exporting ###
+SKIPEXPORT=('test', 'shop_data')
+
+### Skip tables when importing ###
+SKIPIMPORT=('application_setting', 'user_data')
